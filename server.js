@@ -2,8 +2,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose');
 
-const Product=require('./models/details.model');
-const product = require('./models/details.model');
+
 
 const ProductRoute = require('./routecontrol/product.route')
 app.use(express.json()) // middleware
